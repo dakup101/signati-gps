@@ -3,4 +3,5 @@ src/ts/
 src/sass/
 dist/images/
 *.zip
-*.env
+*.env89
+package-lock.json
