@@ -1,0 +1,6 @@
+node_modules/
+src/ts/
+src/sass/
+dist/images/
+*.zip
+*.env
