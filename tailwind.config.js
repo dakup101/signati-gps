@@ -10,6 +10,7 @@ module.exports = {
 		"./page-templates/**/*.php",
 		"./template-parts/**/*.php",
 		"./components/**/*.php",
+		"./src/ts/*.ts",
 		"./src/ts/**/*.ts"
 	],
 	theme: {
@@ -80,7 +81,8 @@ module.exports = {
 			transparent: "transparent",
 			"gradient-dark": "#00010F",
 			"gradient-dark-light": "#00011A",
-			"secondary-l": "#007bff"
+			"secondary-l": "#007bff",
+			red: "red",
 		},
 	},
 	plugins: [

@@ -34,7 +34,7 @@ function send_benefits()
 
 
     $to = 'gps@signati.pl';
-    $subject = 'The subject';
+    $subject = 'Zapytanie z WWW';
     $body =
         "<h1>Nowe zgłoszenie o ofertę:</h1><br><hr><br>"
         . "<strong>Imię:</strong> " . $name . "<br>"
@@ -48,7 +48,7 @@ function send_benefits()
         . "<strong>Funkcjonalności:</strong> " . $func . "<br>"
 
         . "";
-    $headers = array('Content-Type: text/html; charset=UTF-8', 'From: Zgłoszenie | Signati GPS <no-reply@signati.pl>');
+    $headers = array('Content-Type: text/html; charset=UTF-8', 'From: Signati GPS <no-reply@signati.pl>');
 
     $sent = wp_mail($to, $subject, $body, $headers);
 

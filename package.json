@@ -33,6 +33,7 @@
   "dependencies": {
     "@tailwindcss/container-queries": "^0.1.0",
     "archiver": "^5.3.1",
-    "swiper": "^9.0.5"
+    "swiper": "^9.0.5",
+    "validate-regex": "^1.1.1"
   }
 }
